@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('img/fondo.jpg');
+    background-size: cover; /* Cubrir toda la pantalla */
+    background-position: center; 
+}
+header {
+    background-color: #CB64A7; /* Color rosa */
+    padding: 1em;
+    display: flex;
+    align-items: center; /* Alinear verticalmente */
+}
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* Separar logo y menú */
+    align-items: center; /* Alinear verticalmente */
+}
+.logo {
+    flex: 0 0 auto; /* No crecer ni encoger */
+}
+.logo-img {
+    width: 50px; /* Ajustar el tamaño de la imagen */
+    height: auto; /* Mantener la proporción */
+}
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px; /* Espacio entre los elementos de la lista */
+}
+.nav a {
+    color: #fff;
+    text-decoration: none;
+}
+.nav a:hover {
+    color: #fff;
+}
+#sobre-mi {
+    display: flex;
+    flex-direction: column; /* Alinear los elementos en una columna */
+    align-items: center; /* Alinear horizontalmente */
+    justify-content: center;
+    text-align: center; /* Centrar el texto */
+    background-color: #E5AFD3;
+    padding: 20px; /* Añadir algo de espacio alrededor del contenido */
+}
+#sobre-mi img {
+    margin-top: 20px; /* Espacio encima de la imagen */
+    width: 200px; /* Ajustar el tamaño de la imagen */
+    height: auto; /* Mantener la proporción */
+}
+article h1 {
+    color: #fff;
+    margin-right: 20px; /* Espacio a la derecha del encabezado */
+}
+article p {
+    color: #fff;
+    margin-right: 20px; /* Espacio a la derecha del párrafo */
+}
+#sobre-mi {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+.portfolio-img {
+    width: 200px; /* Ajustar el tamaño de la imagen del portafolio */
+    height: auto; /* Mantener la proporción */
+}
+
+#contenedor-experiencia {
+    display: flex;
+    background-color: #E5AFD3;
+}
+
+.experiencia {
+    background-color: #CB64A7;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+}
+.experiencia h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.experiencia p {
+    margin: 10px 0;
+}
+#contenedor-habilidades {
+    background-color: #E5AFD3;
+    padding: 20px;
+    margin: 0; /* Elimina el margen para que el fondo ocupe todo el ancho */
+}
+.habi{
+    display: flex;
+    justify-content: center;
+
+}
+.habilidad-container {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.habilidad {
+    flex: 1;
+    height: 24px;
+    background-color: #f3f3f3;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-left: 10px;
+}
+.nivel {
+    height: 100%;
+    border-radius: 25px;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 24px;
+    color: white;
+}
+.html { background-color: #e34c26; width: 90%; } /* Nivel de HTML: 90% */
+.css { background-color: #264de4; width: 80%; } /* Nivel de CSS: 80% */
+.js { background-color: #f0db4f; width: 70%; } /* Nivel de JavaScript: 70% */
+.habilidad-img {
+    width: 40px;
+    height: 40px;
+}
+
+#contenedor-proyectos {
+    background-color: #E5AFD3;
+    padding: 20px;
+    margin: 0; /* Elimina el margen para que el fondo ocupe todo el ancho */
+}
+.proyecto {
+    position: relative;
+    margin: 20px;
+    display: inline-block;
+}
+.proyecto img {
+    width: 100%;
+    border-radius: 8px;
+}
+.proyecto h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    width: 80%;
+}
+.proyecto a {
+    text-decoration: none;
+}
