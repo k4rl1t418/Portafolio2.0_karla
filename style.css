@@ -5,6 +5,7 @@ body {
     background-image: url('img/fondo.jpg');
     background-size: cover; /* Cubrir toda la pantalla */
     background-position: center; 
+    background-color: #E5AFD3;
 }
 header {
     background-color: #CB64A7; /* Color rosa */
@@ -23,7 +24,10 @@ header {
 }
 .logo-img {
     width: 50px; /* Ajustar el tamaño de la imagen */
-    height: auto; /* Mantener la proporción */
+    height: auto; /* Mantener la pr
+    
+    
+    oporción */
 }
 .nav-list {
     list-style: none;
@@ -135,7 +139,7 @@ article p {
 #contenedor-proyectos {
     background-color: #E5AFD3;
     padding: 20px;
-    margin: 0; /* Elimina el margen para que el fondo ocupe todo el ancho */
+    margin: 0;
 }
 .proyecto {
     position: relative;
@@ -160,4 +164,50 @@ article p {
 }
 .proyecto a {
     text-decoration: none;
+}
+
+#name-proyecto{
+    display: flex;
+    justify-content: center;
+}
+
+#Contenedor-Contacto {
+    text-align: center;
+    margin: 2rem 0;
+    background-color: #E5AFD3;
+    height: 100%;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem; /* Reduce el espacio entre iconos */
+    font-family: Arial, sans-serif;
+    margin-top: 1rem; /* Añade un margen superior para acercar a h1 */
+}
+
+.icon-link {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+    transition: transform 0.2s, color 0.2s;
+}
+
+.icon-link:hover {
+    color: #007bff; /* Cambia a un color al pasar el mouse */
+    transform: scale(1.1);
+}
+
+.icon {
+    font-size: 2rem; /* Aumenta el tamaño de los iconos */
+    margin-right: 0.5rem; /* Espacio entre el icono y el texto */
+}
+
+span {
+    font-size: 1.2rem; /* Tamaño del texto */
+}
+
+.proyecto-1 {
+    width: 100%;
 }
